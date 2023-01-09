@@ -1,0 +1,7 @@
+previewsEnabled: true
+services:
+- type: web
+  env: node
+  envVars:
+    - key: PORT
+      value: 80

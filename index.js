@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const axios = require('axios');
+const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
     res.json({ error: 'No endpoint specified' });
@@ -381,6 +382,6 @@ app.get('/api/countries', (req, res) => {
     }
 });
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log('Server started on port 3000');
 });

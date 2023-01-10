@@ -43,7 +43,7 @@ app.get('/api/flights', (req, res) => {
               returnArriveTo: '23:59'
             },
             headers: {
-              'X-RapidAPI-Key': '2d2afdb577mshe01b4387e962d72p133afajsn1ee23362cc2b',
+              'X-RapidAPI-Key': API_KEY,
               'X-RapidAPI-Host': 'skyscanner44.p.rapidapi.com'
             }
         };
@@ -178,7 +178,7 @@ app.get('/api/routes', (req, res) => {
               returnArriveTo: '23:59'
             },
             headers: {
-              'X-RapidAPI-Key': '2d2afdb577mshe01b4387e962d72p133afajsn1ee23362cc2b',
+              'X-RapidAPI-Key': API_KEY,
               'X-RapidAPI-Host': 'skyscanner44.p.rapidapi.com'
             }
         };
@@ -277,7 +277,7 @@ app.get('/api/datewiseflights', (req, res) => {
               returnArriveTo: '23:59'
             },
             headers: {
-              'X-RapidAPI-Key': '2d2afdb577mshe01b4387e962d72p133afajsn1ee23362cc2b',
+              'X-RapidAPI-Key': API_KEY,
               'X-RapidAPI-Host': 'skyscanner44.p.rapidapi.com'
             }
         };
